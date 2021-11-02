@@ -1,0 +1,62 @@
+body{
+    background-color: #dcdcdc;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0;
+    margin-top: 50px;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 100%;
+}
+.insta{
+    width: 400px;
+    height: 400px;
+    border-radius: 25%;
+    background: linear-gradient(250deg, rgb(136, 5, 160), rgba(255,0,0,0)70.72%),
+    linear-gradient(250deg, rgb(197, 6, 231), rgba(0,255,0,0)70.72%),
+    linear-gradient(250deg, rgb(223, 94, 8), rgba(0,0,255,0)70.72%);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta1{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    border: rgb(255, 255, 255) solid 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.insta3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: rgb(255, 255, 255) solid 25px;
+}
+.d1{
+    position: absolute;
+    top: 3000px;
+    left: 750px;
+    width: 500px;
+    height: 500px;
+    background: grey;
+    border-radius: 50%;
+    right: 1000px;
+    border: 5px solid black;
+}
+table{
+    color: white;
+}
